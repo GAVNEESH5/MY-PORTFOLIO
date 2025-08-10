@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="My Photo" class="profile-pic">
+        <h1>Hi, I am GAVNEESH CHAUHAN</h1>
+        <p>I'm a passionate web developer who loves building beautiful and functional websites using Python, Flask, and modern web technologies.</p>
+        <a href="/contact" class="btn">Contact Me</a>
+    </div>
+</body>
+</html>
